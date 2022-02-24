@@ -27,8 +27,8 @@ a {
     color: unset;
 }
 
-@each $color, $val in $color{
-    .color-#{$color}{
+@each $color, $var in $color {
+    color-#{$color}{
         color: $val;
     }
     .bg-#{$color}{
